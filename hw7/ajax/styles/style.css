@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+h1{
+	margin:0;
+	display: inline-block;
+}
+header{
+	width: 100%;
+	background: #c3cee3;
+	height:50px;
+}
+nav{
+	background:#f1e0ab;
+	width: 100%;
+	height: 30px;
+}
+nav ul{
+	margin: 0;
+}
+nav li{
+	display: inline-block;
+	margin:0 10px;
+	padding: 5px;
+}
+nav li:hover{
+	background: #fe82c8;
+}
+.center{
+	font-size: 0;
+
+}
+.main{
+	width:70%;
+	height: 250px;
+	background: #fee580;
+	font-size: initial;
+	display: inline-block;
+	/* overflow: hidden; */
+}
+aside{
+	font-size: initial;
+	background: #fdc991;
+	width: 30%;
+	height: 250px;
+	display: inline-block;
+}
+footer{
+	background: #fe66d0;
+	height: 50px;
+}

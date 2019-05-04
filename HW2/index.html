@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles/common.css">
+	<!-- <link rel="stylesheet" href="styles/summer.css"> -->
+</head>
+<body>
+	<div class="counter">
+		<h1>Рассчитать показания</h1>
+		<div class="choise">
+			<input type="radio" value="0" name="choise" checked>Газ
+			<input type="radio" value="1" name="choise">Вода
+			<input type="radio" value="2" name="choise">Электричество
+		</div>
+		<div class="price">Текущий тариф:</div>
+		<div class="tareas">
+		<div class="area">
+			<div class="descr">Введите предыдущие показания</div>
+			<input type="text" id="prev">
+		</div>
+		<div class="area">
+			<div class="descr">Введите текущие показания</div>
+			<input type="text" id="curr">	
+		</div>
+		</div>
+		<div id="sum"></div>
+		<input type="button" value="Рассчиать" id="result">
+	</div>
+	<script src="scripts/time.js"></script>
+	<script src="scripts/count.js"></script>
+</body>
+</html>

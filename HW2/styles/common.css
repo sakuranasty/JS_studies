@@ -1,0 +1,26 @@
+.counter{
+	width: 600px;
+	height: 250px;
+	margin:200px auto;
+	border:1px solid black;
+	background: rgba(255, 255, 255, 0.6);
+	text-align: center;
+}
+.price{
+	margin-top: 10px;
+}
+.tareas{
+	display: flex;
+	margin: 20px auto;
+	align-items: center;
+	justify-content: space-around;
+}
+.descr{
+	margin-bottom: 10px;
+}
+.area{
+	width: 220px;
+}
+#prev,#curr{
+	width: 100%;
+}
